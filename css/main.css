@@ -1,11 +1,11 @@
 /* Custom web fonts */
-/* headings */
+/* Font style for headings */
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 
-/* text */
+/* Font style for text */
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 
-/* Body styling */
+/* Body and sections styling */
 body {
 	font-family: 'Lato',  'Helvetica Neue', 'Helvetica', sans-serif;
 	font-size: 18px;
@@ -24,13 +24,14 @@ main {
 header {
 	padding: 1em;
 	background-color: #FA5A0F;
-	border-bottom: 5px solid  #EA4A00;
+	border-bottom: 5px solid #EA4A00;
 	color: #FFFFFF;
 }
 
 header p {
 	font-size:120%;
 	margin:0px;
+	color:#EEEEEE;
 }
 
 section {
@@ -74,13 +75,15 @@ h3 {
 	font-size:125%;
 }
 
+/* Description list styling */
 dt {
 	font-weight:400;	
 }
 
 dd{
-	font-size:80%;
-	font-style:italic;	
+	font-size: 80%;
+	font-style: italic;
+	margin: 0em 0em 1em 1em;
 }
 
 footer {
